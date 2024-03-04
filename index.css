@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+#post-content {
+    width: 399px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.post-section, .comment-section {
+    margin-bottom: 20px;
+}
+
+.post, .comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.post-author, .comment-author {
+    display: flex;
+    align-items: center;
+}
+
+.post-author img, .comment-author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.actions {
+    margin-top: 10px;
+}
+
+.react-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.react-btn:hover {
+    background-color: #0056b3;
+}
+
+#post-btn {
+   
+        width: 100px;
+        height: 30px;
+        background-color: cadetblue;
+        border: none;
+        font: initial;
+        font-family: math;
+        font-weight: 600;
+        border-radius: 10px;
+        position: absolute;
+        display: block;
+    
+}
+
+.left-side{
+    display: inline-block;
+    width: 19.53vw;
+    height: 155%;
+    border-right: 1px solid rgba(151, 55, 127, 0.684);
+    margin-top: 2px;
+   
+    position: absolute;
+    padding:0px;
+    top: 36px;
+    left: 0;
+    position: fixed;
+    background-color: antiquewhite;
+
+}
+
+.post-side {
+    display: grid;
+   
+    position: absolute;
+    width: calc(100% - 19.53vw);
+    justify-content: center;
+    margin: 0 auto;
+    right: 0;
+    background-color: blanchedalmond;
+   
+}
+.post {
+    border: none;
+    background-color: beige;
+    border-radius: 12px;
+    margin-top: 39px;
+}
+
+p {
+    font-size: x-large;
+    font-family: auto;
+    font-style: italic;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+img {
+    display: flex;
+    flex-flow: wrap;
+    overflow: hidden;
+    max-width: 292px;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+li {
+    list-style-type: none; /* Remove default bullet point */
+  }
+  
+  /* Style for the anchor tag */
+  a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Change text color */
+    font-weight: bold; /* Make text bold */
+  }
+  
+  /* Hover effect for the anchor tag */
+  a:hover {
+    color: #555; /* Change text color on hover */
+  }
+  
